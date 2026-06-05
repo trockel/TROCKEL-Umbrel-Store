@@ -1,6 +1,6 @@
 services:
   app_proxy:
-    image: getumbrel/app-proxy:v0.1.1
+    image: getumbrel/app-proxy:0.1.1
     environment:
       APP_HOST: trockel-bch-node_app_1
       APP_PORT: 18332
