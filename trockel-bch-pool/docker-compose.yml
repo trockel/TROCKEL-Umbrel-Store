@@ -12,6 +12,6 @@ services:
     ports:
       - "3032:3032"
     volumes:
-      - ${APP_DATA_DIR}/data/app-data:/config
+      - ${APP_DATA_DIR}/data:/config
     environment:
       - NODE_ENV=production

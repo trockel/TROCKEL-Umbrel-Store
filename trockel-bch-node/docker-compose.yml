@@ -6,13 +6,11 @@ services:
       APP_PORT: 8332
 
   app:
-    image: bitcoincashnode/bitcoin-cash-node:27.1.0
+    image: zquestz/bitcoin-cash-node:27.1.0
     container_name: trockel-bch-node_app_1
     restart: on-failure
     volumes:
-      - ${APP_DATA_DIR}/data/app-data:/data
-    ports:
-      - "8333:8333"
+      - ${APP_DATA_DIR}/data:/data
     command:
       - -datadir=/data
       - -server=1
