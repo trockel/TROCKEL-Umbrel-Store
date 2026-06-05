@@ -3,7 +3,7 @@ services:
     image: getumbrel/app-proxy:v0.1.1
     environment:
       APP_HOST: trockel-bch-node_app_1
-      APP_PORT: 8332
+      APP_PORT: 18332
 
   app:
     image: zquestz/bitcoin-cash-node:27.1.0
@@ -15,6 +15,8 @@ services:
       - -datadir=/data
       - -server=1
       - -txindex=1
+      - -port=18333
+      - -rpcport=18332
       - -rpcuser=trockel_bch_user
       - -rpcpassword=sua_senha_secreta_rpc
       - -rpcallowip=0.0.0.0/0
