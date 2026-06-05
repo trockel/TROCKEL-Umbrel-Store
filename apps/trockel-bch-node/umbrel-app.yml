@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: bch-node
+id: trockel-bch-node
 name: Bitcoin Cash Node
 tagline: Full node soberano da rede Bitcoin Cash (BCHN)
 icon: https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/bch-node/icon.svg

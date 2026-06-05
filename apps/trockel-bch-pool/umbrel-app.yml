@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: bch-pool
+id: trockel-bch-pool
 name: BCH Solo Pool
 tagline: Servidor Stratum SHA-256 para mineração solo
 icon: https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/bch-pool/icon.svg
@@ -19,4 +19,4 @@ support: https://github.com/trockel/TROCKEL-Umbrel-Store/issues
 gallery:
   - https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/bch-pool/icon.svg
 dependencies:
-  - bch-node
+  - trockel-bch-node
