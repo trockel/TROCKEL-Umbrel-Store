@@ -16,3 +16,6 @@ support: "https://github.com/bitcoincashnode/bitcoin-cash-node/issues"
 gallery:
   - "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/trockel-bch-node/icon.svg"
 dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

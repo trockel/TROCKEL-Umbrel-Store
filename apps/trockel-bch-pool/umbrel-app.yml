@@ -17,3 +17,6 @@ gallery:
   - "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/trockel-bch-pool/icon.svg"
 dependencies:
   - "trockel-bch-node"
+path: ""
+defaultUsername: ""
+defaultPassword: ""
