@@ -2,7 +2,7 @@ manifestVersion: 1
 id: "trockel-bch-node"
 name: "Bitcoin Cash Node"
 tagline: "Full node soberano da rede Bitcoin Cash (BCHN)"
-icon: "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/trockel-bch-node/icon.svg"
+icon: "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/trockel-bch-node/icon.svg"
 category: "Bitcoin"
 version: "27.1.0"
 port: 8332
@@ -14,7 +14,7 @@ submission: "https://github.com/trockel/TROCKEL-Umbrel-Store"
 repo: "https://github.com/bitcoincashnode/bitcoin-cash-node"
 support: "https://github.com/bitcoincashnode/bitcoin-cash-node/issues"
 gallery:
-  - "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/trockel-bch-node/icon.svg"
+  - "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/trockel-bch-node/icon.svg"
 dependencies: []
 path: ""
 defaultUsername: ""

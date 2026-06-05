@@ -2,7 +2,7 @@ manifestVersion: 1
 id: "trockel-bch-pool"
 name: "BCH Solo Pool"
 tagline: "Servidor Stratum SHA-256 para mineração solo"
-icon: "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/trockel-bch-pool/icon.svg"
+icon: "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/trockel-bch-pool/icon.svg"
 category: "Bitcoin"
 version: "1.0.0"
 port: 8082
@@ -14,7 +14,7 @@ submission: "https://github.com/trockel/TROCKEL-Umbrel-Store"
 repo: "https://github.com/zone117x/node-open-mining-portal"
 support: "https://github.com/trockel/TROCKEL-Umbrel-Store/issues"
 gallery:
-  - "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/trockel-bch-pool/icon.svg"
+  - "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/trockel-bch-pool/icon.svg"
 dependencies:
   - "trockel-bch-node"
 path: ""
