@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: bch-pool
+name: BCH Solo Pool
+tagline: Servidor Stratum SHA-256 para mineração solo
+icon: https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/bch-pool/icon.svg
+category: Bitcoin
+version: "1.0.0"
+port: 8082
+description: >-
+  Servidor de Pool Stratum SHA-256 de alta performance baseado em NOMP. 
+  Configurado especificamente para conectar seus ASICs (como LuckyMiner e Bitaxe) 
+  diretamente ao seu próprio nó de Bitcoin Cash.
+developer: Trockel Tecnologia
+website: https://github.com/trockel
+submitter: trockel
+submission: https://github.com/trockel/TROCKEL-Umbrel-Store
+repo: https://github.com/zone117x/node-open-mining-portal
+support: https://github.com/trockel/TROCKEL-Umbrel-Store/issues
+gallery:
+  - https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/bch-pool/icon.svg
+dependencies:
+  - bch-node
