@@ -1,0 +1,14 @@
+{
+    "id": "bch-node",
+    "name": "Bitcoin Cash Node",
+    "version": "27.1.0",
+    "category": "Bitcoin",
+    "description": "Nó completo de Bitcoin Cash (BCHN) para dar suporte à mineração solo.",
+    "developer": "Bitcoin Cash Node",
+    "website": "https://bitcoincashnode.org",
+    "dependencies": [],
+    "repo": "https://github.com/bitcoincashnode/bitcoin-cash-node",
+    "support": "https://github.com/bitcoincashnode/bitcoin-cash-node/issues",
+    "port": 8332,
+    "gallery": []
+}

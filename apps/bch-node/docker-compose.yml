@@ -1,0 +1,18 @@
+services:
+  app:
+    image: bitcoincashnode/bitcoin-cash-node:27.1.0
+    container_name: bch_node_mainnet
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    ports:
+      - "8333:8333"
+      - "8332:8332"
+    command:
+      - -datadir=/data
+      - -server=1
+      - -txindex=1
+      - -rpcuser=trockel_bch_user
+      - -rpcpassword=sua_senha_secreta_rpc
+      - -rpcallowip=0.0.0.0/0
+      - -rpcbind=0.0.0.0

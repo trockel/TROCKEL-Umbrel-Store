@@ -1,0 +1,14 @@
+{
+    "id": "bch-pool",
+    "name": "BCH Solo Pool",
+    "version": "1.0.0",
+    "category": "Bitcoin",
+    "description": "Servidor de Pool Stratum SHA-256 configurado para mineração solo de Bitcoin Cash.",
+    "developer": "Trockel Tecnologia",
+    "website": "https://github.com/trockel",
+    "dependencies": [
+        "bch-node"
+    ],
+    "port": 8082,
+    "gallery": []
+}
