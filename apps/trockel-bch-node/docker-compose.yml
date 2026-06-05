@@ -7,6 +7,7 @@ services:
 
   app:
     image: bitcoincashnode/bitcoin-cash-node:27.1.0
+    container_name: trockel-bch-node_app_1
     restart: on-failure
     volumes:
       - ${APP_DATA_DIR}/data/app-data:/data

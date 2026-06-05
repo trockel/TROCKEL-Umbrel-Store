@@ -1,21 +1,18 @@
 manifestVersion: 1
-id: trockel-bch-node
-name: Bitcoin Cash Node
-tagline: Full node soberano da rede Bitcoin Cash (BCHN)
-icon: https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/bch-node/icon.svg
-category: Bitcoin
+id: "trockel-bch-node"
+name: "Bitcoin Cash Node"
+tagline: "Full node soberano da rede Bitcoin Cash (BCHN)"
+icon: "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/trockel-bch-node/icon.svg"
+category: "Bitcoin"
 version: "27.1.0"
 port: 8332
-description: >-
-  Full node completo da rede Bitcoin Cash (BCHN). Permite validar transações, 
-  fortalecer a segurança da rede e fornece a API RPC necessária para alimentar 
-  infraestruturas locais de mineração solo SHA-256.
-developer: Bitcoin Cash Node
-website: https://bitcoincashnode.org
-submitter: trockel
-submission: https://github.com/trockel/TROCKEL-Umbrel-Store
-repo: https://github.com/bitcoincashnode/bitcoin-cash-node
-support: https://github.com/bitcoincashnode/bitcoin-cash-node/issues
+description: "Full node completo da rede Bitcoin Cash (BCHN). Permite validar transações, fortalecer a segurança da rede e fornece a API RPC necessária para alimentar infraestruturas locais de mineração solo SHA-256."
+developer: "Bitcoin Cash Node"
+website: "https://bitcoincashnode.org"
+submitter: "trockel"
+submission: "https://github.com/trockel/TROCKEL-Umbrel-Store"
+repo: "https://github.com/bitcoincashnode/bitcoin-cash-node"
+support: "https://github.com/bitcoincashnode/bitcoin-cash-node/issues"
 gallery:
-  - https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/bch-node/icon.svg
+  - "https://raw.githubusercontent.com/trockel/TROCKEL-Umbrel-Store/main/apps/trockel-bch-node/icon.svg"
 dependencies: []
